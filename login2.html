@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="login2.css">
+
+</head>
+
+<body>
+    <!-- logo Section -->
+    <div class="header1">
+         <div class="top-line"></div>
+         <div class="top-line-2"></div>
+         <div class="top-line-3"></div>
+       <img src="expense-logo.png" alt="Expense Tracker Logo" class="logo-image">
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo">Go To Dashboard</div>
+        <div class="nav-buttons">
+            <button id="login-btn">Login</button>
+            <button id="register-btn">Register</button>
+        </div>
+    </div>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow">
+        <img src="expense1.jpg" alt="Expense Tracker 1">
+        <img src="expense2.jpg" alt="Expense Tracker 2">
+        <img src="expense3.jpg" alt="Expense Tracker 3">
+        <img src="expense4.jpg" alt="Expense Tracker 3">
+
+    </div>
+
+    <!-- Popup login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h2>Login</h2>
+            <input type="text" id="modal-username" placeholder="Enter your username">
+            <input type="password" id="modal-password" placeholder="Enter your password">
+            <button id="modal-login-btn" class="btn">Login</button>
+            <button id="close-modal-btn" class="btn close-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Popup Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <h2>Register</h2>
+            <input type="text" id="register-username" placeholder="Enter a username">
+            <input type="password" id="register-password" placeholder="Enter a password">
+            <button id="modal-register-btn" class="btn">Register</button>
+            <button id="close-register-modal-btn" class="btn close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="login2.js"></script>
+</body>
+
+</html>
